@@ -115,29 +115,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-#numbers{
-    margin-left: 45px;
-}
-
-#letters{
-    margin-left: 45px;
-}
-
-#characters{
-    margin-left: 45px;
-}
-
-
-#firstpassword:hover{
+#firstpassword:hover, #secondpassword:hover{
     height: 32px;
     cursor:url('./copy.png'), auto; 
 }
 
-#secondpassword:hover{
-    height: 32px;
-    cursor:url('./copy.png'), auto; 
-}
 
+/* border animation */
 @keyframes rotate {
     100% {
       transform: rotate(1turn);
@@ -188,6 +172,8 @@ input::-webkit-inner-spin-button {
     }
   }
   
+
+/* checkbox design/animation */
   label.checkbox {
     position: relative;
     padding: 0px 30px 0px 25px;
